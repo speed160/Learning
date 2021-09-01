@@ -1,0 +1,22 @@
+package org.spingmvcshoppingcart.entity;
+
+import java.io.Serializable;
+import java.util.Date;
+
+public class Product implements Serializable {
+
+	private static final long serialVersionUID = -1000119078147252957L;
+
+	private String code;
+	private String name;
+	private double price;
+	private byte[] image;
+
+	// For sort
+	private Date createDate;
+
+	public Product() {
+
+	}
+
+}

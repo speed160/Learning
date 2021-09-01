@@ -1,0 +1,13 @@
+package org.springmvcshoppingcart.dao;
+
+import org.spingmvcshoppingcart.entity.Product;
+import org.spingmvcshoppingcart.model.ProductInfo;
+
+public interface ProductDAO {
+
+	public Product findProduct(String Code);
+
+	public ProductInfo findProductInfo(String code);
+	
+	
+}

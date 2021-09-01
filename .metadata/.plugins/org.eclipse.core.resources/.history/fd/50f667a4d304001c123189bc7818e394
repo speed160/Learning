@@ -1,0 +1,14 @@
+package org.springmvcshoppingcart.dao.impl;
+
+import org.spingmvcshoppingcart.entity.Account;
+import org.springmvcshoppingcart.dao.AccountDAO;
+
+public class AccountDAOImpl implements AccountDAO {
+
+	@Override
+	public Account findAccount(String userName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,13 @@
+package org.springmvcshoppingcart.authenication;
+
+import org.springframework.security.config.annotation.ObjectPostProcessor;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+
+public class MyDBAuthenticationService extends AuthenticationManagerBuilder {
+
+	public MyDBAuthenticationService(ObjectPostProcessor<Object> objectPostProcessor) {
+		super(objectPostProcessor);
+		// TODO Auto-generated constructor stub
+	}
+
+}

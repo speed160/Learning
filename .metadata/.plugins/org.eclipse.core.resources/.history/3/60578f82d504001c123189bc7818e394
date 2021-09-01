@@ -1,0 +1,18 @@
+package org.springmvcshoppingcart.dao.impl;
+
+import javax.transaction.Transactional;
+
+import org.spingmvcshoppingcart.entity.Account;
+import org.springmvcshoppingcart.dao.AccountDAO;
+
+// Transactional for Hibernate
+@Transactional
+public class AccountDAOImpl implements AccountDAO {
+
+	@Override
+	public Account findAccount(String userName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

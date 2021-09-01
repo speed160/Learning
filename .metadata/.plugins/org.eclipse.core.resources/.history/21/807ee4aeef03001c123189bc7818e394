@@ -1,0 +1,7 @@
+package org.springmvcshoppingcart.dao.impl;
+
+import org.springmvcshoppingcart.dao.ProductDAO;
+
+public class ProductDAOImpl implements ProductDAO {
+
+}

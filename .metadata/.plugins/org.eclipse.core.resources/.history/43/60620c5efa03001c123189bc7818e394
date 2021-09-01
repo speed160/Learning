@@ -1,0 +1,7 @@
+package org.spingmvcshoppingcart.entity;
+
+import java.io.Serializable;
+
+public class Accoubt implements Serializable {
+
+}

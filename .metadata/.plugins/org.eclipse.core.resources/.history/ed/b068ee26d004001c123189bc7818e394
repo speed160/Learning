@@ -1,0 +1,15 @@
+package org.springmvcshoppingcart.dao;
+
+import org.spingmvcshoppingcart.model.CartInfo;
+import org.spingmvcshoppingcart.model.OrderInfo;
+import org.spingmvcshoppingcart.model.PaginationResult;
+
+public interface OrderDAO {
+
+	public void saveOrder(CartInfo cartInfo);
+	
+	public PaginationResult<OrderInfo> listOrderInfo(int page,
+			int maxResult,int maxNavigationPage);
+	
+
+}

@@ -1,0 +1,5 @@
+package org.spingmvcshoppingcart.model;
+
+public class OrderDetailInfo {
+
+}

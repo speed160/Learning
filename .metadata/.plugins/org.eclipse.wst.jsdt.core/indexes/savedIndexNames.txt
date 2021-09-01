@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+D:\Abhishal\ecl-wsp\source-3\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2347126343.index

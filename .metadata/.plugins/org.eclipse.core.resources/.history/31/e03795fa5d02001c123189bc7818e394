@@ -1,0 +1,15 @@
+package org.spingmvcshoppingcart.config;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
+
+@Configuration
+@ComponentScan("org.o7planning.springmvcshoppingcart.*")
+public class ApplicationContextConfig {
+
+	
+	
+	
+
+}

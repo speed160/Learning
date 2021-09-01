@@ -1,0 +1,37 @@
+package org.springmvcshoppingcart.dao.impl;
+
+import java.util.List;
+
+import org.spingmvcshoppingcart.model.CartInfo;
+import org.spingmvcshoppingcart.model.OrderDetailInfo;
+import org.spingmvcshoppingcart.model.OrderInfo;
+import org.spingmvcshoppingcart.model.PaginationResult;
+import org.springmvcshoppingcart.dao.OrderDAO;
+
+public class OrderDAOImpl implements OrderDAO   {
+
+	@Override
+	public void saveOrder(CartInfo cartInfo) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public PaginationResult<OrderInfo> listOrderInfo(int page, int maxResult, int maxNavigationPage) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public OrderInfo getOrderInfo(String orderId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<OrderDetailInfo> listOrderDetailInfos(String orderId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

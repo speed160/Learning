@@ -1,0 +1,25 @@
+package org.spingmvcshoppingcart.model;
+
+public class OrderDetailInfo {
+
+	private String id;
+
+	private String productCode;
+	private String productName;
+
+	private int quantity;
+	private double price;
+	private double amount;
+
+	public OrderDetailInfo() {
+
+	}
+
+	// Using Hibernate Query
+	public OrderDetailInfo(String id, String productCode,
+			String productName,int quantity,double price,double amount) {
+			
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package org.springmvcshoppingcart.dao;
+
+public class OrderDAO {
+
+}
